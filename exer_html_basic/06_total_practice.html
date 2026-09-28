@@ -28,7 +28,10 @@
                 저는 웹 프로그래밍을 공부하고 있습니다<br><br>
                 현재 HTML5의 기본 구조와 다양한 태그를 학습하고 있습니다.<br><br>
                 앞으로 CSS와 JavaScript도 공부할 예정입니다.<br><br>
-                </p>   
+                </p>
+                
+                <img src="profile.png" alt="프로필 이미지" width="180">
+
             </article>
 
         </section>    
@@ -124,12 +127,46 @@
                             <td><input id="JavaScript" type="checkbox"></td>
                             <td><label for="JavaScript">JavaScript</label></td>
                         </tr>
+                        <tr>
+                            <td><label for="level">웹 프로그래밍 수준</label>
+                                <select id="level">
+                                    <option> 초급 </option>
+                                    <option> 중급 </option>
+                                    <option> 고급 </option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">문의 내용</label></td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="message" row="5" cols="40"
+                            placeholder="문의내용을 입력하세요"></textarea></td>
+                        </tr>
+
                         
                     </table>
-                    <input type="submit">
+                    <input type="submit" value="제출">
+                    <input type="reset" value="초기화">
                 </fieldset>
-            </form>           
+            </form>  
+
+        <aside>
+            <h2>
+            참고 사이트
+            </h2>
+            <p>
+            HTML에 대해 더 공부하고 싶다면?
+            </p>
+        </aside> 
+
         </main>
 
+        <hr>
+
+        <footer>
+            <p>Copyright © 2026 Web Programming</p>
+            <p>HTML 종합 실습 페이지</p>
+        </footer>
+        
     </body>
 </html>
