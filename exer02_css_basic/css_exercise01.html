@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        body {
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+
+        .본문 {
+            width: 100%;
+            max-width: 650px;
+            background-color: white;
+            border: 2px solid lightgrey;
+            border-radius: 12px;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .소개 {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .프로필_영역 {
+            background-color: skyblue;
+            border-radius: 15px;
+            padding: 22px 25px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .프로필_이미지 {
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            overflow: hidden;
+            background-color: black;
+            border: 3px solid white;
+            flex-shrink: 0;;
+        }
+
+        .프로필_내용 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .내용_영역 {
+            background-color: white;
+            border: 1px solid lightgrey;
+            border-radius: 12px;
+            padding: 22px 22px;
+        }
+
+        .내용_제목 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: darkblue;
+            padding-bottom: 8px;
+            border-bottom: 2px solid darkblue;
+            margin-bottom: 16px;
+        }
+
+        .기술_목록 {
+            display: flex;
+            gap: 12px;
+        }
+
+        .box {
+            padding: 8px 16px;
+            border-radius: 16px;
+            font-size: 1rem;
+            font-weight: 800;
+            display: inline-block;
+        }
+
+        .box-html { background-color: greenyellow; color: darkgreen; }
+        .box-css { background-color: lightblue; color: darkblue; }
+        .box-js { background-color: yellow; color: darkgoldenrod; }
+        .box-git { background-color: pink; color: darkred; }
+
+        .소개하기 {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: gray;
+        }
+
+        .소개하기 p {
+            margin-bottom: 12px;
+        }
+
+        .문의_양식 {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .레터박스 {
+            display: flex;
+        }
+
+        .레터박스 label {
+            width: 80px;
+            font-size: 1rem;
+            font-weight: 800;
+            color: black;
+        }
+
+        .input-name {
+            background-color: lightyellow;
+        }
+
+        .input-email {
+            background-color: lightcyan;
+        }
+
+        .btn-submit {
+            margin-top: 6px;
+            align-self: center;
+            background-color: gray;
+            color: white;
+            border:2px solid black;
+            padding: 8px 24px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+    </style>
 </head>
 <body>
-    <div class="제목">
+    <div class="본문">
 
         <header>
             <h1> MY PROFILE </h1>
@@ -28,11 +180,11 @@
 
             <div class="내용_영역">
                 <h3 class="내용_제목">관심 기술</h3>
-                <div class="기술 목록">
-                    <span class="sign-html">HTML</span>
-                    <span class="sign-css">CSS</span>
-                    <span class="sign-js">JavaScript</span>
-                    <span class="sign-git">Git</span>
+                <div class="기술_목록">
+                    <span class="box box-html">HTML</span>
+                    <span class="box box-css">CSS</span>
+                    <span class="box box-js">JavaScript</span>
+                    <span class="box box-git">Git</span>
                 </div>
             </div>    
 
@@ -61,6 +213,10 @@
             </div>
 
         </div>
+
+        <footer>
+            2026 Web Programming Practice
+        </footer>
         
     </div>
 </body>
