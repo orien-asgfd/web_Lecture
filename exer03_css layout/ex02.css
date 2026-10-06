@@ -1,0 +1,87 @@
+body {
+    width: 800px;
+    margin: 16px auto;
+}
+
+.header {
+    overflow: hidden;
+    width: 790px;
+    color: white;
+    background: darkblue;
+    box-sizing : border-box;
+}
+
+.header h1 {
+    width: 400px;
+    margin: 12px auto;
+}
+
+.header p {
+    width: 250px;
+    margin: 8px auto;
+}
+
+.nev {
+    overflow: hidden;
+    width: 800px;   
+}
+
+.nev_box {
+    float: left;
+    text-align: center;
+    width: 17.5%;
+    height: 24px;
+    padding: 8px;
+    background: skyblue;
+    border: 1px solid white;
+    
+}
+
+.container {
+    overflow: hidden;
+}
+
+.main {
+    float : left;
+    width: 550px;
+    height: 250px;
+    padding: 16px;
+    box-sizing : border-box;
+}
+
+.main h2 {
+    color:darkblue;
+}
+
+.side {
+    float: right;
+    width: 200px;
+    height: 250px;
+    margin: 0 8px;
+    padding: 16px;
+    background: lightskyblue;
+    box-sizing : border-box;
+}
+
+.side h3{
+    padding: 4px;
+    color:darkblue;
+}
+
+.side_box {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    padding: 6px;
+    background: white;
+    border: 1px solid black; 
+    box-sizing : border-box;
+}
+
+.footer {
+    width: 760px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    background: grey;
+}
