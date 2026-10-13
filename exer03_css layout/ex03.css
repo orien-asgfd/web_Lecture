@@ -1,0 +1,93 @@
+body {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.header {
+    overflow: hidden;
+    height: 140px;
+    width: 990px;
+    margin: 0 auto;
+    color: white;
+    background: darkred;
+    box-sizing : border-box;    
+}
+
+.header h1 {
+    width: 300px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.header p {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.nev {
+    overflow: hidden;
+    width: 1000px;   
+}
+
+.nev_box {
+    float: left;
+    text-align: center;
+    width: 18%;
+    height: 30px;
+    padding: 8px;
+    background: red;
+    border: 1px solid white;
+    
+}
+
+.container {
+    overflow: hidden;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.main {
+    float: center;
+    width: 500px;
+    margin: 0 auto;
+    color:red;
+    padding: 4px;
+}
+
+.main_box {
+    float: center;
+    margin: 16px auto;
+    padding: 4px;
+    color:black;
+    background:lightcoral;
+    border: 1px solid red;
+}
+
+.main h3 {
+    padding: 4px;
+}
+
+.main p {
+    padding: 4px;
+}
+
+.aside {
+    overflow: hidden;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin: 20px auto;
+    background:lightcoral;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    margin: 20px auto;
+    background:lightcoral;
+}
