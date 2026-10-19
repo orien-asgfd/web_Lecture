@@ -42,52 +42,74 @@ body {
 
 .container {
     overflow: hidden;
-    width: 1000px;
-    margin: 20px auto;
+    width: 990px;
+    height: 400px;
+    padding: 5px;
 }
 
 .main {
     float: center;
     width: 500px;
     margin: 0 auto;
-    color:red;
-    padding: 4px;
+    color:darkred;;
+    padding: px;
 }
 
 .main_box {
     float: center;
     margin: 16px auto;
-    padding: 4px;
+    padding: 8px;
     color:black;
-    background:lightcoral;
+    background:pink;
     border: 1px solid red;
 }
 
 .main h3 {
-    padding: 4px;
+    padding: 8px;
 }
 
 .main p {
-    padding: 4px;
-}
-
-.aside {
-    overflow: hidden;
-    width: 1000px;
-    margin: 20px auto;
+    padding: 8px;
 }
 
 .left {
     float: left;
-    width: 20%;
-    height: 300px;
-    margin: 20px auto;
-    background:lightcoral;
+    width: 196px;
+    height: 400px;
+    background:pink;
+}
+
+.left h2 {
+    padding: 8px;
+    color :darkred;;
+}
+
+.left p {
+    padding: 8px;
 }
 
 .right {
     float: right;
-    width: 20%;
-    margin: 20px auto;
-    background:lightcoral;
+    width: 196px;
+    height: 400px;
+    background:pink;
+}
+
+.right h2 {
+    padding: 8px;
+    color :darkred;;
+}
+
+.right_box {
+    padding: 8px;
+}
+
+.footer {
+    width: 960px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+    color:white;
+    background: darkred;
 }
